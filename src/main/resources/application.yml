@@ -1,12 +1,12 @@
 server:
-  port: 8082
+  port: ${SERVER_PORT:-8082}
 spring:
   application:
-    name: ms-accounts
+    name: ${SPRING_APPLICATION_NAME:-ms-accounts}
   datasource:
-    url: jdbc:postgresql://localhost:5432/sofka
-    username: postgres
-    password: Passw0rd.
+    url: jdbc:postgresql://localhost:5432/bank
+    username: ${POSTGRES_USER:-postgres}
+    password: ${POSTGRES_PASSWORD:-Passw0rd.}
   jpa:
     hibernate:
       ddl-auto: update
@@ -16,10 +16,9 @@ spring:
         format_sql: true
   rabbitmq:
     host: localhost
-    port: 5672
-    username: admin
-    password: admin
-
+    port: ${RABBITMQ_PORT:-5672}
+    username: ${RABBITMQ_USER:-admin}
+    password: ${RABBITMQ_PASSWORD:-admin}
 eureka:
   client:
     serviceUrl:

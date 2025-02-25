@@ -1,4 +1,4 @@
-package com.sofka.ms_accounts.service;
+package com.sofka.ms_accounts.service.impl;
 
 import com.sofka.ms_accounts.dto.AccountDTO;
 import com.sofka.ms_accounts.entity.Account;
@@ -6,6 +6,7 @@ import com.sofka.ms_accounts.exception.AccountNotFoundException;
 import com.sofka.ms_accounts.exception.DuplicateAccountException;
 import com.sofka.ms_accounts.mapper.AccountMapper;
 import com.sofka.ms_accounts.repository.AccountRepository;
+import com.sofka.ms_accounts.service.AccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

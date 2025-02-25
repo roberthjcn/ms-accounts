@@ -1,4 +1,4 @@
-package com.sofka.ms_accounts.service;
+package com.sofka.ms_accounts.service.impl;
 
 import com.sofka.ms_accounts.dto.AccountStatementDTO;
 import com.sofka.ms_accounts.dto.MovementDetailDTO;

@@ -1,4 +1,4 @@
-package com.sofka.ms_accounts.service;
+package com.sofka.ms_accounts.service.impl;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

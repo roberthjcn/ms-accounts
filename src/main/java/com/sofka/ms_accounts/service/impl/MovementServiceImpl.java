@@ -1,4 +1,4 @@
-package com.sofka.ms_accounts.service;
+package com.sofka.ms_accounts.service.impl;
 
 import com.sofka.ms_accounts.dto.MovementDTO;
 import com.sofka.ms_accounts.entity.Account;
@@ -10,6 +10,7 @@ import com.sofka.ms_accounts.exception.MovementNotFoundException;
 import com.sofka.ms_accounts.mapper.MovementMapper;
 import com.sofka.ms_accounts.repository.AccountRepository;
 import com.sofka.ms_accounts.repository.MovementRepository;
+import com.sofka.ms_accounts.service.MovementService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

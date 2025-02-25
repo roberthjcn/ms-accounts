@@ -1,7 +1,7 @@
 package com.sofka.ms_accounts.controller;
 
 import com.sofka.ms_accounts.dto.AccountStatementDTO;
-import com.sofka.ms_accounts.service.ReportService;
+import com.sofka.ms_accounts.service.impl.ReportService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
